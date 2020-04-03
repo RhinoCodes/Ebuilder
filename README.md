@@ -28,9 +28,9 @@ header_two = etc("h2")
 ```
 This simple example would create a new Text Component with the html tag h2 which for those of you unfamiliar with 
 html is the second biggest size of text that is included without further styling (h1 being the first)
-  ---
+
 You can then call this like you would header, because they both use the EbuilderTextComponent class.
-  ---
+
 Note that if you only import EbuilderTextComponent you wont be able to 
 access the other functions of Ebuilder Ultra, like making a new page, it is shown here
 because it is the most efficient way.
