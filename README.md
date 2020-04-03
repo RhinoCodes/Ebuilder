@@ -1,10 +1,10 @@
 # Purpose
-The purpose of this is to:
+The purpose of this is to:<br>
   A) Give me a project to work on<br>
   B) Provide a simple static site generator using python<br>
 # Installation
 Currently I do not have a PyPI package setup BUT you can install it from the following commands
-`git clone https://github.com/RhinoCodes/Ebuilder-Ultra.git`
+`git clone https://github.com/RhinoCodes/Ebuilder-Ultra.git`<br>
 `cd Ebuilder-Ultra && pip install setup.py`
 * Note: I am not a pro at packaging stuff so be aware that the following commands may not work. 
    | If so feel free to start a Pull Request
