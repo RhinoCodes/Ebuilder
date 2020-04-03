@@ -56,11 +56,3 @@ class EbuilderTextComponent: # A simple class used to define text components
 
 header = EbuilderTextComponent("h1") # VERY SIMPLE COMPONENT DEFINITIONS
 paragraph = EbuilderTextComponent("p")
-
-# Testing
-root = newpage("index")
-b = header(root, "This is the KATIE test of Ebuilder Ultra Core!")
-b.center()
-b.font("-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif")
-b.color("pink")
-root.commit()
