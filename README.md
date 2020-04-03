@@ -9,7 +9,8 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
 * Note: I am not a pro at packaging stuff so be aware that the following commands may not work. 
    | If so feel free to start a Pull Request
  # Simple Usage
- This is only a SIMPLE example for more tutorials/how to's visit the wiki in the near future.
+ This simple example would create a .html file with a <h1> tag, centered and gray.
+  
  ```
  from ebuilder.ebuilder_core import *
  
@@ -19,18 +20,21 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
  title.color('gray')
  index.commit()
  ```
- 
- This example would create a .html file with a <h1> tag, centered and gray.
   
 ```
 from ebuilder.ebuilder_core import EbuilderTextComponent as etc
   
 header_two = etc("h2")
 ```
+This simple example would create a new Text Component with the html tag <h1> which for those of you unfamiliar with 
+html is the second biggest size of text that is included without further styling (h1 being the first)
+  ---
+You can then call this like you would header, because they both use the EbuilderTextComponent class.
+  ---
 Note that if you only import EbuilderTextComponent you wont be able to 
 access the other functions of Ebuilder Ultra, like making a new page, it is shown here
 because it is the most efficient way.
 
 # Advice Welcome
-Feel free to dig through the source code, you'll see that EbuilderTextComponent 
+Feel free to dig through the source code and open Pull Requests and start issues, if you dig you'll see that EbuilderTextComponent 
 has a bit of a weird implementation....
