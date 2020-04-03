@@ -9,7 +9,7 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
 * Note: I am not a pro at packaging stuff so be aware that the following commands may not work. 
    | If so feel free to start a Pull Request
  # Simple Usage
- This simple example would create a .html file with a <h1> tag, centered and gray.
+ This simple example would create a .html file with a h1 tag, centered and gray.
   
  ```
  from ebuilder.ebuilder_core import *
@@ -26,7 +26,7 @@ from ebuilder.ebuilder_core import EbuilderTextComponent as etc
   
 header_two = etc("h2")
 ```
-This simple example would create a new Text Component with the html tag <h1> which for those of you unfamiliar with 
+This simple example would create a new Text Component with the html tag h2 which for those of you unfamiliar with 
 html is the second biggest size of text that is included without further styling (h1 being the first)
   ---
 You can then call this like you would header, because they both use the EbuilderTextComponent class.
