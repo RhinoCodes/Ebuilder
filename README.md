@@ -19,8 +19,8 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
  title.color('gray')
  index.commit()
  ```
- would create a .html file with a <h1> tag, centered and gray.
- Also, defining a new text tag is as simple as:
+would create a .html file with a <h1> tag, centered and gray.
+Also, defining a new text tag is as simple as:
 
 ```
 from ebuilder.ebuilder_core import EbuilderTextComponent as etc
