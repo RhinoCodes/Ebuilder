@@ -10,7 +10,7 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
    | If so feel free to start a Pull Request
  # Simple Usage
  This is only a SIMPLE example for more tutorials/how to's visit the wiki in the near future.
- `
+ ```
  from ebuilder.ebuilder_core import *
  
  index = newpage('index')
@@ -18,15 +18,15 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
  title.center()
  title.color('gray')
  index.commit()
- `
+ ```
  would create a .html file with a <h1> tag, centered and gray.
  Also, defining a new text tag is as simple as:
 
-`
+```
 from ebuilder.ebuilder_core import EbuilderTextComponent as etc
   
 header_two = etc("h2")
-`
+```
 Note that if you only import EbuilderTextComponent you wont be able to 
 access the other functions of Ebuilder Ultra, like making a new page, it is shown here
 because it is the most efficient way.
