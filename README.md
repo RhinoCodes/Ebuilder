@@ -1,6 +1,6 @@
 # Purpose
-The purpose of this is to:<br>    
-  A) Give me a project to work on<br>    
+The purpose of this is to:<br>
+  A) Give me a project to work on<br>
   B) Provide a simple static site generator using python<br>
 # Installation
 Currently I do not have a PyPI package setup BUT you can install it from the following commands
