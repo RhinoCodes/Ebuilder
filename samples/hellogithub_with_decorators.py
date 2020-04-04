@@ -1,9 +1,9 @@
 from ebuilder.ebuilder_decorators import *
 from ebuilder.ebuilder_core import EbuilderTextComponent
 
-header_two = EbuilderTextComponent("h2")
 @page
 def index():
+    header_two = EbuilderTextComponent("h2")
     title = header(index, "Hello Repl.it!")
     title.font("-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif")
     title.center()

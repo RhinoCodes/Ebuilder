@@ -27,8 +27,8 @@ class newpage: # The VERY base class in Ebuilder Ultra Core, This handles all th
 
     def final_commit(self):
         self.buffer.append('''
-        </body>
-    </html>
+  </body>
+</html>
     ''')
         self.commit()
         
