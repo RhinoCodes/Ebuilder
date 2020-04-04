@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Ebuilder
-Version: 0.2.3
+Version: 0.2.5
 Summary: An upgraded version of good ol' Eebuilder, a static site generator that 'converts' Python 3 code to HTML 5.
 Home-page: https://github.com/RhinoCodes/Ebuilder
 Author: Will F
@@ -42,6 +42,8 @@ Description: # This project's name has been changed to Ebuilder
         access the other functions of Ebuilder Ultra, like making a new page, it is shown here
         because it is the most efficient way.
         
+        # Whats New in version 0.2.5
+        * Fixed bug in ebuilder_decorators that was stopping it from running.
         # Advice Welcome
         Feel free to dig through the source code and open Pull Requests and start issues, if you dig you'll see that EbuilderTextComponent 
         has a bit of a weird implementation....

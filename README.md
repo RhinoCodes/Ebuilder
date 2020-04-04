@@ -34,6 +34,8 @@ Note that if you only import EbuilderTextComponent you wont be able to
 access the other functions of Ebuilder Ultra, like making a new page, it is shown here
 because it is the most efficient way.
 
+# Whats New in version 0.2.5
+* Fixed bug in ebuilder_decorators that was stopping it from running.
 # Advice Welcome
 Feel free to dig through the source code and open Pull Requests and start issues, if you dig you'll see that EbuilderTextComponent 
 has a bit of a weird implementation....
