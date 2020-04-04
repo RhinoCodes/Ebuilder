@@ -24,6 +24,13 @@ class newpage: # The VERY base class in Ebuilder Ultra Core, This handles all th
         with open(self.page, "a+") as f:
             f.write(''.join(self.buffer))
             self.buffer = []
+
+    def final_commit(self):
+        self.buffer.append('''
+        </body>
+    </html>
+    ''')
+        self.commit()
         
 class EbuilderTextComponent: # A simple class used to define text components
     def __init__(self, tag):

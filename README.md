@@ -7,7 +7,7 @@ Currently I do not have a PyPI package setup BUT you can install it from the fol
 `git clone https://github.com/RhinoCodes/Ebuilder-Ultra.git`<br>
 `cd Ebuilder-Ultra && pip install setup.py`
 * Note: I am not a pro at packaging stuff so be aware that the following commands may not work. <br>
-   | If so feel free to start a Pull Request
+  If so feel free to start a Pull Request
  # Simple Usage
  This first simple example would create a .html file with a h1 tag, centered and gray.
   
