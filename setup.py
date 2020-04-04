@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Ebuilder",
-    version="0.2.5",
+    version="0.2.6",
     author="Will F",
     author_email="forsbergw82@gmail.com",
     description="An upgraded version of good ol' Eebuilder, a static site generator that 'converts' Python 3 code to HTML 5.",
