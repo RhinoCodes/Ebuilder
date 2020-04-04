@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: Ebuilder-Ultra
+Name: Ebuilder
 Version: 0.2.1
 Summary: An upgraded version of good ol' Eebuilder, a static site generator that 'converts' Python 3 code to HTML 5.
-Home-page: https://github.com/RhinoCodes/Ebuilder-Ultra
+Home-page: https://github.com/RhinoCodes/Ebuilder
 Author: Will F
 Author-email: forsbergw82@gmail.com
 License: UNKNOWN
