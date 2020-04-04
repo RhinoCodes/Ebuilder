@@ -31,6 +31,12 @@ class newpage: # The VERY base class in Ebuilder Ultra Core, This handles all th
 </html>
     ''')
         self.commit()
+
+    def __enter__(self):
+        pass
+
+    def __exit__(self):
+        self.final_commit()
         
 class EbuilderTextComponent: # A simple class used to define text components
     def __init__(self, tag):
