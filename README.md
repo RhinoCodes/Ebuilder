@@ -1,13 +1,12 @@
+# This projects name has been changed to Ebuilder
+We have renamed Ebuilder Ultra to Ebuilder in preperation for our up coming web framework
+named Ebuilder Ultra. Don't wory thought, this repo isn't going anywhere!
 # Purpose
 The purpose of this is to:<br>
   A) Give me a project to work on<br>
   B) Provide a simple static site generator using python<br>
 # Installation
-Currently I do not have a PyPI package setup BUT you can install it from the following commands:<br>
-`git clone https://github.com/RhinoCodes/Ebuilder-Ultra.git`<br>
-`cd Ebuilder-Ultra && pip install setup.py`
-* Note: I am not a pro at packaging stuff so be aware that the following commands may not work. <br>
-  If so feel free to start a Pull Request
+`pip install Ebuilder`
  # Simple Usage
  This first simple example would create a .html file with a h1 tag, centered and gray.
   
