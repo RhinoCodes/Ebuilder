@@ -1,5 +1,5 @@
 # This project's name has been changed to Ebuilder
-We have renamed Ebuilder Ultra to Ebuilder in preperation for our up coming web framework
+We have renamed Ebuilder Ultra to Ebuilder in preperation for our web framework
 named Ebuilder Ultra. Don't wory thought, this repo isn't going anywhere!
 # Purpose
 The purpose of this is to:<br>
