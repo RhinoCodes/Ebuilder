@@ -16,10 +16,12 @@ class newpage: # The VERY base class in Ebuilder Ultra Core, This handles all th
     <meta name="viewport" content="width=device-width">
     <title>{title}</title>
   </head>
-  <body>
-  """)
+  <body>""")
         open(self.page, "w+").close()
-
+        
+    def __repr__(self):
+        return self.buffer.join("\n")
+        
     def commit(self): # My fancy way of letting the user empty and add the buffer to a file (Inspired by git)
         with open(self.page, "a+") as f:
             f.write(''.join(self.buffer))
